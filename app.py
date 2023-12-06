@@ -13,7 +13,7 @@ scalar=pickle.load(open('scaling.pkl','rb'))
 
 @app.route('/')#home page
 def home():
-    return render_template('home.html') #look for template folder
+    return render_template('home.html') #look for template
 
 @app.route('/predict_api',methods=['POST'])#using postman
 def predict_api():

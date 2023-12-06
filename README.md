@@ -15,7 +15,7 @@ conda activate venv/
 
 2. Create requirements.txt 
 '''
-pip install -r requirements.txt
+venv/bin/pip install -r requirements.txt
 '''
 
 3. set up github account in cmd
